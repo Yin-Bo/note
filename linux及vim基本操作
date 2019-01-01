@@ -1,0 +1,60 @@
+获取权限
+sudo
+
+装 python3
+apt-get install python3-pip
+
+装 vim
+apt-get install vim
+
+装sublime3
+
+查看
+ls ll -s -a
+
+删除文件
+rm -f 文件名
+
+创建文件夹
+mkdir 文件夹名
+
+删除文件夹
+rm -rf 文件夹名/
+
+移动文件
+mv 文件 新路径
+
+查找文件
+find 当前路径 条件
+例子： find . -name spider.py
+
+vim显示行号
+:set number
+
+vim保存退出
+:wq
+
+vim跳行
+:行数
+
+vim回到顶部
+
+查看进程
+ps
+
+查看全部进程
+ps a
+
+查找进程
+ps aux | grep 进程名
+
+路径内容查找
+grep 查找方式 内容 路径
+例子： grep -r hello ./
+-r:recursive 递归查找
+
+查看端口状态
+netstat
+
+查看cpu占用
+top
